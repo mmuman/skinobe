@@ -1,0 +1,47 @@
+000aa270 <BBox::Draw(BRect)>:
+   aa270:       55              push   %ebp
+   aa271:       89 e5           mov    %esp,%ebp
+   aa273:       83 ec 70        sub    $0x70,%esp
+   aa276:       57              push   %edi
+   aa277:       56              push   %esi
+   aa278:       53              push   %ebx
+   aa279:       e8 00 00 00 00  call   aa27e <BBox::Draw(BRect)+0xe>
+   aa27e:       5b              pop    %ebx
+   aa27f:       81 c3 7a 43 13  add    $0x13437a,%ebx
+   aa284:       00
+   aa285:       8b 7d 08        mov    0x8(%ebp),%edi
+   aa288:       c7 45 f0 00 00  movl   $0x0,0xfffffff0(%ebp)
+   aa28d:       00 00
+   aa28f:       c7 45 f4 00 00  movl   $0x0,0xfffffff4(%ebp)
+   aa294:       00 00
+
+
+
+
+000ab698 <BButton::Draw(BRect)>:
+   ab698:       55              push   %ebp
+   ab699:       89 e5           mov    %esp,%ebp
+   ab69b:       81 ec b0 00 00  sub    $0xb0,%esp
+   ab6a0:       00
+   ab6a1:       57              push   %edi
+   ab6a2:       56              push   %esi
+   ab6a3:       53              push   %ebx
+   ab6a4:       e8 00 00 00 00  call   ab6a9 <BButton::Draw(BRect)+0x11>
+   ab6a9:       5b              pop    %ebx
+   ab6aa:       81 c3 4f 2f 13  add    $0x132f4f,%ebx
+   ab6af:       00
+   ab6b0:       8b 45 08        mov    0x8(%ebp),%eax
+
+
+000aea68 <BChannelControl::Draw(BRect)>:
+   aea68:       55              push   %ebp
+   aea69:       89 e5           mov    %esp,%ebp
+   aea6b:       83 ec 10        sub    $0x10,%esp
+   aea6e:       53              push   %ebx
+   aea6f:       e8 00 00 00 00  call   aea74 <BChannelControl::Draw(BRect)+0xc>
+   aea74:       5b              pop    %ebx
+   aea75:       81 c3 84 fb 12  add    $0x12fb84,%ebx
+   aea7a:       00
+
+
+

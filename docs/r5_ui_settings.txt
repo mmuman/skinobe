@@ -1,0 +1,55 @@
+000ccec0 <_set_default_ui_settings___FP7ui_info>:
+   ccec0:       55              push   %ebp
+   ccec1:       89 e5           mov    %esp,%ebp
+   ccec3:       81 ec 84 00 00  sub    $0x84,%esp
+   ccec8:       00
+   ccec9:       57              push   %edi
+   cceca:       56              push   %esi
+   ccecb:       53              push   %ebx
+   ccecc:       e8 00 00 00 00  call   cced1 <_set_default_ui_settings___FP7ui_info+0x11>
+   cced1:       5b              pop    %ebx
+   cced2:       81 c3 27 17 11  add    $0x111727,%ebx
+   cced7:       00
+   cced8:       8b 75 08        mov    0x8(%ebp),%esi
+   ccedb:       68 0c 05 00 00  push   $0x50c
+   ccee0:       6a 00           push   $0x0
+   ccee2:       56              push   %esi
+   ccee3:       e8 bc a3 fa ff  call   772a4 <._init+0x77f>
+   ccee8:       d9 83 6c 0e fa  flds   0xfffa0e6c(%ebx)
+   cceed:       ff
+   cceee:       d9 9e 0c 01 00  fstps  0x10c(%esi)
+   ccef3:       00
+   ccef4:       c7 06 66 6e 69  movl   $0x75696e66,(%esi)
+   ccef9:       75
+   ccefa:       c7 46 04 70 70  movl   $0x706a7070,0x4(%esi)
+   cceff:       6a 70
+   ccf01:       c7 46 08 01 00  movl   $0x1,0x8(%esi)
+   ccf06:       00 00
+   ccf08:       c7 46 10 00 00  movl   $0xffe50000,0x10(%esi)
+   ccf0d:       e5 ff
+   ccf0f:       c7 46 19 ff cb  movl   $0xff00cbff,0x19(%esi)
+   ccf14:       00 ff
+   ccf16:       c6 46 18 01     movb   $0x1,0x18(%esi)
+   ccf1a:       c6 46 0e d8     movb   $0xd8,0xe(%esi)
+   ccf1e:       c6 46 0d d8     movb   $0xd8,0xd(%esi)
+   ccf22:       c6 46 0c d8     movb   $0xd8,0xc(%esi)
+   ccf26:       c6 46 0f ff     movb   $0xff,0xf(%esi)
+   ccf2a:       c6 86 92 01 00  movb   $0xd8,0x192(%esi)
+   ccf2f:       00 d8
+   ccf31:       c6 86 91 01 00  movb   $0xd8,0x191(%esi)
+   ccf36:       00 d8
+   ccf38:       c6 86 90 01 00  movb   $0xd8,0x190(%esi)
+   ccf3d:       00 d8
+   ccf3f:       c6 86 93 01 00  movb   $0xff,0x193(%esi)
+   ccf44:       00 ff
+   ccf46:       c6 86 98 01 00  movb   $0x1,0x198(%esi)
+   ccf4b:       00 01
+   ccf4d:       c6 86 99 01 00  movb   $0x0,0x199(%esi)
+   ccf52:       00 00
+   ccf54:       c7 86 94 01 00  movl   $0x0,0x194(%esi)
+   ccf59:       00 00 00 00 00
+   ccf5e:       8d 45 80        lea    0xffffff80(%ebp),%eax
+   ccf61:       89 85 7c ff ff  mov    %eax,0xffffff7c(%ebp)
+   ccf66:       ff
+   ccf67:       50              push   %eax 
+
